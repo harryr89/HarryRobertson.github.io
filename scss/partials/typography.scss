@@ -1,0 +1,82 @@
+@import '../variables';
+
+h1 {
+  color: $primary-color;
+  font-family: $primary-font;
+  font-size: 80px;
+  text-align: center;
+}
+
+#subtitle {
+  color: $accent-color;
+  font-size: 70px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 37px;
+  font-family: $accent-font;
+  color: $primary-color;
+  letter-spacing: 3px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: $accent-font;
+  font-weight: 200;
+  color: $primary-color;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: $accent-font;
+  font-weight: 200;
+  color: white;
+  text-align: justify;
+  line-height: 24px;
+  @media #{$mobile} {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+h5 {
+  font-family: $accent-font;
+  font-weight: 200;
+  color: $primary-color;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+p {
+  text-align: justify;
+  font-size: 16px;
+  color: $accent-color;
+  font-family: $p-font;
+  line-height: 28px;
+  @media #{$mobile} {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+a, .envelope-button {
+  color: $primary-color;
+  &:hover, &:active {
+    color: lighten($primary-color, 10%);
+    cursor: pointer;
+  }
+  &:vistied {
+    color: $primary-color;
+  }
+}
+
+.devicon {
+  font-size: 50px;
+  color: #5b7b7a;
+  @media #{$mobile} {
+    font-size: 80px;
+  }
+}
