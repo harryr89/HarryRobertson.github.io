@@ -1,14 +1,15 @@
 @import '../variables';
 
 h1 {
-  color: $primary-color;
+  color: $primary-colorTwo;
   font-family: $primary-font;
   font-size: 80px;
   text-align: center;
 }
 
 #subtitle {
-  color: $accent-color;
+  // color: $accent-color;
+  color: purple;
   font-size: 70px;
 }
 

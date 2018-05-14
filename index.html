@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="I am a full-stack web developer based in London. View my portfolio here." >
-    <title>Clara Cheung</title>
+    <title>Harry Robertson</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- w3 css library -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Vertical scrolling library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
@@ -15,35 +17,33 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#202020">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"> -->
     <!-- My css and js -->
     <script src="/public/js/app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="/public/css/style.css">
   </head>
   <body>
     <div class="container" id="fullpage">
-      <div class="section" id="hero" name="home">
+      <div class="section section1" id="hero" name="home">
         <div class="hero-text">
-          <h1 id="title">Hello, I am Clara.</h1>
+          <h1 id="title">Hello, I'm Harry.</h1>
           <h1 id="subtitle"><span class="type"></span></h1>
-          <img src="https://imgur.com/3DW8pyc.png" />
         </div>
       </div>
       <div class="section" id="about" name="about">
-        <div class="about-wrapper">
+        <div class="about-wrapper aboutPad">
           <div class="about-text">
             <h3>ABOUT ME</h3>
-            <p class="paragraph-1">As a former Pharmacist, I saw the need of technology in the industry and potential of technology to bring scalable impact to our society. I began by teaching myself some basic web skills during my free time and eventually used them to customise my e-commerce business website. The digital marketing knowledge I accumulated has led me to a position in a healthcare startup at Kickstart Accelerator 2016. And after witnessing the innovation and passion at the accelerator, I decided I wanted to be fully involved in tech.</p>
-            <p class="paragraph-2">In September 2017, I took on a 12-week Web Development Course at General Assembly where I learned all the essentials to become a full-stack web developer. It could be the satisfaction of solving problems or the ability to create and design, but I am coding day and night, and I love it!</p>
-            <p class="paragraph-3">I have been an avid gamer since I was a child. I enjoy immersing myself in fantasy worlds and sharing my experience with others through streaming on Twitch.</p>
-            <p class="paragraph-4">As a person that 'lives on the internet', I think it is pure bliss that I can do what I love for a living. My current goal is to use my new found skills to create products that improve our future.</p>
+            <p class="paragraph-1">I recently finished the web development immersive course at General Assembly. I chose web development because it gave me what I have been looking for, the combination of creativity and problem solving. I want to make great applications that have fantastic user interfaces and great functionality. I’m currently seeking a position in a dynamic environment with people who can help me realise my development ambitions.</p>
+            <p class="paragraph-2"></p>
+            <p class="paragraph-3">I love trying to think of interesting solutions to puzzles and problems. It feels really good when you suddenly get an insight into a situation which then changes your thinking about all other related problems. This is what has attracted me to programming in the first place, the opportunity to apply this thinking to a practical domain. I like to find this in my other interests which mainly consists of reading, having fun with friends and playing some guitar.</p>
           </div>
-          <div class="about-skills">
+          <div class="about-skills aboutPad">
             <h3>SKILLS</h3>
             <ul>
               <li><i class="devicon devicon-angularjs-plain"></i><p>AngularJS</p></li>
@@ -71,26 +71,30 @@
           </div>
         </div>
       </div>
+      <div class="section section2 aboutPad hero-text" id="hero" name="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+          <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small" id="title">PROJECTS</span></span>
+        </div>
+        <!-- <h1 id="title">PROJECTS</h1> -->
+      </div>
       <div class="section" id="work" name="work">
         <div id="projects">
           <div class="slide">
-            <img class="project-image" src="https://imgur.com/xs7tQ1F.png" />
+            <img class="project-image" src="https://i.imgur.com/oKFKNJX.png" />
             <div class="project-info">
-              <h2>TWINDER</h2>
-              <h5>React, Node.js, Express, MongoDB</h5>
-              <h4>Tinder meets Twitch. A stream discovery tool for Twitch streamers to network with similar streamers, featuring a customisable search criteria and auto-suggest.</h4>
-              <a target="_blank" href="https://github.com/claracmy/WDI_PROJECT_4"><i class="fab fa-github"></i></a>
-              <a target="_blank" href="https://twinderapp.herokuapp.com"><i class="fas fa-desktop"></i></a>
+              <h2>SPOT ON</h2>
+              <h5>ES6, jQuery</h5>
+              <h4>I made a version of whack-a-mole. This was my first time working jQuery and ES6.</h4>
+              <a target="_blank" href="https://github.com/harryr89/WDI_PROJECT_ONE"><i class="fab fa-github"></i></a>
             </div>
           </div>
           <div class="slide">
-            <img src="https://imgur.com/vG8Cmm1.png" />
+            <img src="https://i.imgur.com/uZXQyYw.png" />
             <div class="project-info">
-              <h2>DINOMAP</h2>
-              <h5>Rails, Angular</h5>
-              <h4>Weekend project that maps dinosaur fossils on Google Map using the Paleobiology Database API.</h4>
-              <a target="_blank" href="https://github.com/claracmy/WDI_RAILS_PROJECT"><i class="fab fa-github"></i></a>
-              <a target="_blank" href="https://dinomap.herokuapp.com/"><i class="fas fa-desktop"></i></a>
+              <h2>LANDSCAPES</h2>
+              <h5>Node.js, Express, MongoDB</h5>
+              <h4>RESTful app that allowed people to upload pictures of Scandinavian LANDSCAPES</h4>
+              <a target="_blank" href="https://github.com/harryr89/WDI_PROJECT_TWO"><i class="fab fa-github"></i></a>
             </div>
           </div>
           <div class="slide">
@@ -99,46 +103,29 @@
               <h2>WATSON'S JOKES</h2>
               <h5>AngularJS, Node.js, Express, MongoDB, Filestack, AWS</h5>
               <h4>Group project using IBM Watson's text-to-speech function to convert text into playable audio files on the website.</h4>
-              <a target="_blank" href="https://github.com/claracmy/WDI_PROJECT_3/"><i class="fab fa-github"></i></a>
-              <a target="_blank" href="https://watson-clara.herokuapp.com/"><i class="fas fa-desktop"></i></a>
+              <a target="_blank" href="https://github.com/harryr89/WDI_GROUP_PROJECT/"><i class="fab fa-github"></i></a>
             </div>
           </div>
-          <div class="slide">
-            <img src="https://imgur.com/oEa0cn4.png" />
-            <div class="project-info">
-              <h2>CAN I LAUNCH?</h2>
-              <h5>Node.js, Express, MongoDB</h5>
-              <h4>Fully RESTful app that allows startups/website owners to get feedback from other entrepreneurs and web designers before they launch their website.</h4>
-              <a target="_blank" href="https://github.com/claracmy/WDI_PROJECT_2"><i class="fab fa-github"></i></a>
-              <a target="_blank" href="https://canilaunch.herokuapp.com/"><i class="fas fa-desktop"></i></a>
-            </div>
-          </div>
-          <div class="slide">
-            <img src="https://imgur.com/bdzUsnf.png" />
-            <div class="project-info">
-              <h2>OSU MANIA!</h2>
-              <h5>ES6, jQuery</h5>
-              <h4>A JavaScript mock of the rhythm game Osu Mania! Note spawning rate is calculated according to the BPM and the rhythm of the song. Features scoreboard and combo counter.</h4>
-              <a target="_blank" href="https://github.com/claracmy/WDI_PROJECT_1"><i class="fab fa-github"></i></a>
-              <a target="_blank" href="https://osu-mania.herokuapp.com/"><i class="fas fa-desktop"></i></a>
-            </div>
-          </div>
+        </div>
+      </div>
+      <div class="section sectionbrown">
+        <!-- <div class="w3-display-middle" style="white-space:nowrap;">
+          <span class="w3-center w3-padding-large w3-blue w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small" id="title">let's have a chat</span></span>
+        </div> -->
+        <!-- <h1>let's have a chat</h1> -->
+        <div class="w3-center">
+          <a href="https://imgur.com/JMXU1mO"><img src="https://i.imgur.com/JMXU1mO.png" title="source: imgur.com" /></a>
         </div>
       </div>
       <div class="section" id="contact" name="contact">
         <h2>Let's have a chat</h2>
         <br>
         <br>
-        <h2 class="envelope-button"><i class="fas fa-envelope"></i></h2>
-        <form class="contact-form" action="http://formspree.io/cheung.cmy@gmail.com" method="POST" hidden>
-          <h5>Name</h5><input type="text" name="name"><br>
-          <h5>Email</h5><input type="email" name="_replyto"><br>
-          <h5>Message</h5><textarea name="body"></textarea>
-          <input type="submit" value="Send">
-        </form>
-        <h2><a target="_blank" href="https://www.twitter.com/claracdev"><i class="fab fa-twitter"></i></a></h2>
-        <h2><a target="_blank" href="https://www.github.com/claracmy"><i class="fab fa-github"></i></a></h2>
-        <h2><a target="_blank" href="https://www.linkedin.com/in/clara-cheung"><i class="fab fa-linkedin"></i></h2>
+        <h2 class="envelope-button"><a target="-blank" href="mailto:harryr800@hotmail.com"><i class="fas fa-envelope"></i></a></h2>
+        <!-- <h2><a target="_blank" href="https://www.twitter.com/claracdev"><i class="fab fa-twitter"></i></a></h2> -->
+        <h2><a target="_blank" href="https://www.github.com/harryr89"><i class="fab fa-github"></i></a></h2>
+        <h2><a target="_blank" href="https://www.linkedin.com/in/harry-robertson-56b467151"><i class="fab fa-linkedin"></i></h2>
+          <!-- <img src="https://i.imgur.com/JMXU1mOs.png" /> -->
       </div>
     </div>
   </body>
